@@ -8,3 +8,12 @@ def map(array)
   end
   new_array
 end
+
+def reduce(source_array, starting_point)
+  if starting_point
+    sum = starting_point
+    i = 0
+  else
+    sum = source_array[0]
+    i = 1
+  end
