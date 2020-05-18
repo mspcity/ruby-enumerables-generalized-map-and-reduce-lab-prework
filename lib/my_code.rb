@@ -17,3 +17,4 @@ def reduce(source_array, starting_point)
     sum = source_array[0]
     i = 1
   end
+end
